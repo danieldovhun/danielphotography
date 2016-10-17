@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Monuments Photography - Daniel Photography</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="stylesheet" href="../src/css/gallery.css">
+    <link rel="stylesheet" href="../src/css/nature.css">
+    <link rel="icon" href="../src/img/logo/daniel_photography.png">
+    <script src="../src/js/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".gallery").mouseenter(function() {
+          $(this).css({
+            "border-radius": "6px",
+            "border": "1px solid darkgray"
+          });
+        });
+        $(".gallery").mouseleave(function() {
+          $(this).css({
+            "border-radius": "0px",
+            "border": "1px solid gray"
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="galeries">
+      <div class="back">
+        <a href="../galeries.html" class="aback"><-- Back</a>
+      </div>
+      <div class="download">
+        <a href="Download/monuments_img.zip" class="adownload" download>Dowload images</a>
+      </div>
+      <h1 style="text-align: center">Monuments photography</h1>
+      <div class="photos">
+        <div class="gallery">
+          <a href="monuments/trebisov-royal-tomb.html">
+            <img src="monuments/img/thumb_DSC_0013_1024.jpg">
+            <p>Trebišov Royal Tomb</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="monuments/hotel-in-strbske-pleso.html">
+            <img src="monuments/img/thumb_DSC_0015_1024.jpg">
+            <p>Hotel in Štrbské Pleso</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="monuments/tatra-planetarium.html">
+            <img src="monuments/img/thumb_DSC_0034_1024.jpg">
+            <p>Tata Planetarium</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="monuments/sydney-lighthouse.html">
+            <img src="monuments/img/thumb_DSC_0105_1024.jpg">
+            <p>Sydney Lighthouse</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

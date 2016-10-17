@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(90, 90, 85, 0.6);
+    font-family:'Arial Narrow Bold', sans-serif
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+div {
+    background-color: rgb(200, 200, 200);
+    border-radius: 4px;
+    height: 30px;
+    width: 90px;
+}
+
+a {
+    color: rgb(100, 100, 100);
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    position: absolute;
+    left: 170px;
+}
+
+.love {
+    position: absolute;
+    left: 434px;
+}
+
+.curious {
+    position: absolute;
+    left: 175px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Galeries - Daniel Photography</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/navbar.css">
+    <link rel="stylesheet" href="src/css/gallery.css">
+    <link rel="icon" href="src/img/logo/daniel_photography.png">
+    <script src="src/js/jquery.min.js"></script>
+    <!-- [if lt IE 9]>
+      <script src="src/js/html5shiv.js"></script>
+    <![endif] -->
+    <script>
+      $(document).ready(function() {
+        $(".gallery").mouseenter(function() {
+          $(this).css({
+            "border-radius": "6px",
+            "border": "1px solid darkgray"
+          });
+        });
+        $(".gallery").mouseleave(function() {
+          $(this).css({
+            "border-radius": "0px",
+            "border": "1px solid gray"
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li class="active">
+        <a href="galeries.html">Galeries</a>
+      </li>
+      <li>
+        <a href="about-me.html">About me</a>
+      </li>
+      <li>
+        <a href="socials.html">Social Media</a>
+      </li>
+    </ul>
+    <h2 style="text-align: center"><em>Galleries</em></h2>
+    <div class="galeries">
+      <div class="gallery">
+        <a href="galeries/nature.html">
+          <img src="src/img/nature_img/thumb_DSC_0002_1024.jpg">
+          <p>Nature</p>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="galeries/urban_photography.html">
+          <img src="src/img/urban_img/thumb_DSC_0034_1024.jpg">
+          <p>Urban photography</p>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="galeries/monuments.html">
+          <img src="src/img/monuments_img/thumb_DSC_0013_1024.jpg">
+          <p>Monuments</p>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Urban Photography - Daniel Photography</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="stylesheet" href="../src/css/gallery.css">
+    <link rel="stylesheet" href="../src/css/nature.css">
+    <link rel="icon" href="../src/img/logo/daniel_photography.png">
+    <script src="../src/js/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".gallery").mouseenter(function() {
+          $(this).css({
+            "border-radius": "6px",
+            "border": "1px solid darkgray"
+          });
+        });
+        $(".gallery").mouseleave(function() {
+          $(this).css({
+            "border-radius": "0px",
+            "border": "1px solid gray"
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="galeries">
+      <div class="back">
+        <a href="../galeries.html" class="aback"><-- Back</a>
+      </div>
+      <div class="download">
+        <a href="Download/urban_img.zip" class="adownload" download>Dowload images</a>
+      </div>
+      <h1 style="text-align: center">Urban Photography</h1>
+      <br>
+      <br>
+      <div class="photos">
+        <div class="gallery">
+          <a href="urban/sydney-night.html">
+            <img src="urban/img/thumb_DSC_0034_1024.jpg">
+            <p>Sydney Night</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="urban/sydney-skyscrapers.html">
+            <img src="urban/img/thumb_DSC_0083_1024.jpg">
+            <p>Sydney Skyscrapers</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="urban/sydney-panorama.html">
+            <img src="urban/img/thumb_DSC_0168_1024.jpg">
+            <p>Sydney Panorama</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

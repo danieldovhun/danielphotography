@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Nature Photography - Daniel Photography</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <link rel="stylesheet" href="../src/css/gallery.css">
+    <link rel="stylesheet" href="../src/css/nature.css">
+    <link rel="icon" href="../src/img/logo/daniel_photography.png">
+    <script src="../src/js/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".gallery").mouseenter(function() {
+          $(this).css({
+            "border-radius": "6px",
+            "border": "1px solid darkgray"
+          });
+        });
+        $(".gallery").mouseleave(function() {
+          $(this).css({
+            "border-radius": "0px",
+            "border": "1px solid gray"
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="galeries">
+      <div class="back">
+        <a href="../galeries.html" class="aback"><-- Back</a>
+      </div>
+      <div class="download">
+        <a href="Download/nature_img.zip" class="adownload" download>Dowload images</a>
+      </div>
+      <h1 style="text-align: center">Nature Photography</h1>
+      <br>
+      <br>
+      <div class="photos">
+        <div class="gallery">
+          <a href="nature/house-under-tatras.html">
+            <img src="nature/img/thumb_DSC_0002_1024.jpg">
+            <p>House under High Tatras</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/tatra-peak.html">
+            <img src="nature/img/thumb_DSC_0007_1024.jpg">
+            <p>Tatra peak</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/tatra-spring.html">
+            <img src="nature/img/thumb_DSC_0028_1024.jpg">
+            <p>Tatra Spring</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/tanning-lizard.html">
+            <img src="nature/img/thumb_DSC_0036_1024.jpg">
+            <p>Tanning Lizard</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/two-lovers.html">
+            <img src="nature/img/thumb_DSC_0058_1024.jpg">
+            <p>Two lovers</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/ship-rock.html">
+            <img src="nature/img/thumb_DSC_0081_1024.jpg">
+            <p>Ship Rock</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/bell-bush.html">
+            <img src="nature/img/thumb_DSC_0087_1024.jpg">
+            <p>Bell Bush</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/bushlet.html">
+            <img src="nature/img/thumb_DSC_0057_1024.jpg">
+            <p>Bushlet</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/curious-lizard.html">
+            <img src="nature/img/thumb_DSC_0091_1024.jpg">
+            <p>Curious Lizard</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/rock-near-sea.html">
+            <img src="nature/img/thumb_DSC_0135_1024.jpg">
+            <p>Rock near the sea</p>
+          </a>
+        </div>
+        <div class="gallery">
+          <a href="nature/fallen-tree.html">
+            <img src="nature/img/thumb_IMG_7223_1024.jpg">
+            <p>Fallen tree</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

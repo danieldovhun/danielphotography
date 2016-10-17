@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Social Media - Daniel Photography</title>
+    <link rel="stylesheet" href="src/css/navbar.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/socials.css">
+    <link rel="icon" href="src/img/logo/daniel_photography.png">
+    <script src="src/js/jquery.min.js"></script>
+    <!-- [if lt IE 9]>
+      <script src="src/js/html5shiv.js"></script>
+    <![endif] -->
+    <script>
+      $(document).ready(function() {
+        $(".img").mouseenter(function() {
+          $(this).css({
+            "border-radius": "6px",
+            "border": "1px solid darkgray"
+          });
+        });
+        $(".img").mouseleave(function() {
+          $(this).css({
+            "border-radius": "0px",
+            "border": "1px solid gray"
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="galeries.html">Galeries</a>
+      </li>
+      <li>
+        <a href="about-me.html">About me</a>
+      </li>
+      <li class="active">
+        <a href="socials.html">Social Media</a>
+      </li>
+    </ul>
+    <div class="img">
+      <a href="https://www.facebook.com/danielphotography123/">
+        <img src="src/img/socials/facebook.png">
+        <p>Follow me on Facebook</p>
+      </a>
+    </div>
+    <div class="img">
+      <a href="https://www.flickr.com/photos/147635139@N03/">
+        <img src="src/img/socials/flickr.png">
+        <p>Follow me on Flickr</p>
+      </a>
+    </div>
+    <div class="img">
+      <a href="https://www.instagram.com/danielphotography123/">
+        <img src="src/img/socials/instagram.png">
+        <p>Follow me on Instagram</p>
+      </a>
+    </div>
+  </body>
+</html>

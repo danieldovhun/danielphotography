@@ -1,0 +1,20 @@
+.gallery {
+    border: 1px solid gray;
+    width: 360px;
+    float: left;
+    margin: 8px;
+}
+
+img {
+    height: 320px;
+    width: 340px;
+    margin: 8px;
+}
+
+p {
+    color: rgb(100, 100, 100);
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Daniel Photography</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/navbar.css">
+    <style>
+      body {
+        background-image: url("src/img/logo/14380150_10154628358543258_8662601390148445395_o.jpg");
+      }
+    </style>
+    <link rel="icon" href="src/img/logo/daniel_photography.png">
+    <script src="src/js/jquery.min.js"></script>
+    <!-- [if lt IE 9]>
+      <script src="src/js/html5shiv.js"></script>
+    <![endif] -->
+    <script>
+      $(document).ready(function() {
+        $(".hyperlink").mouseenter(function() {
+          $(this).css({
+            "color": "rgb(170, 170, 190)"
+          });
+        });
+        $(".hyperlink").mouseleave(function() {
+          $(this).css({
+            "color": "rgb(150, 150, 170)"
+          });
+        });
+      });
+    </script>
+  </head>
+  <body class="body">
+    <ul>
+      <li class="active">
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="galeries.html">Galeries</a>
+      </li>
+      <li>
+        <a href="about-me.html">About me</a>
+      </li>
+      <li>
+        <a href="socials.html">Social Media</a>
+      </li>
+    </ul>
+    <div class="container1">
+      <h1 class="home containera"><em>Daniel Photography</em></h1>
+    </div>
+    <br>
+    <div class="container2">
+      <h2 class="home" class="containerb">Welcome to <i>Daniel Photography</i> !</h2>
+    </div>
+    <br>
+    <div class="container3">
+      <h4 class="home">Why am I on this site?</h4>
+      <p class="home">You are on this site because you want to<br>explore photography of various places and<br>locations.</p>
+    </div>
+    <br>
+    <div class="container4">
+      <h4 class="home" id="right">Where can I find<br>more information?</h4>
+      <p class="home" id="righta">You can find more information in <br><a href="about-me.html" class="hyperlink"><i>About me</i></a> section.</p>
+    </div>
+  </body>
+</html>

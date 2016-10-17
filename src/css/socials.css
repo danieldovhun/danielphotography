@@ -1,0 +1,12 @@
+img {
+    height: 300px;
+    width: 300px;
+}
+
+div {
+    height: 350px;
+    width: 310px;
+    border: 1px solid rgba(100, 100, 120, 0.3);
+    float: left;
+    margin: 10px;
+}
